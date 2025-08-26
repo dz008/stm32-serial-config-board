@@ -1,0 +1,71 @@
+# 构建产物 / Build artifacts
+build/
+*.bin
+*.hex
+*.elf
+*.map
+*.lst
+
+# IDE文件 / IDE files
+.vscode/
+.settings/
+.project
+.cproject
+Debug/
+Release/
+
+# 编译器产生的文件 / Compiler generated files
+*.o
+*.d
+*.su
+*.tmp
+*~
+
+# 操作系统文件 / Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python缓存 / Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志文件 / Log files
+*.log
+
+# 临时文件 / Temporary files
+/tmp/
+
+# 备份文件 / Backup files
+*.bak
+*.backup
+
+# PlatformIO相关 / PlatformIO related
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Keil MDK相关 / Keil MDK related
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.axf
+*.htm
+*.lnp
+*.sct
+
+# IAR相关 / IAR related
+*.eww
+*.ewd
+*.ewp
+*.dni
+*.wsdt
+*.dep
+*.map
+
+# STM32CubeIDE相关 / STM32CubeIDE related
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
